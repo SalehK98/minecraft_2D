@@ -1,0 +1,31 @@
+.sky {
+  background-color: skyblue;
+}
+/* .cloud {
+  background: url(../assets/block/cloud.png) no-repeat top center/cover;
+}
+.dirt {
+  background: url(../assets/block/dirt.png) no-repeat top center/cover;
+}
+.grass {
+  background: url(../assets/block/grass.png) no-repeat top center/cover;
+}
+.leaf {
+  background: url(../assets/block/leaf.png) no-repeat top center/cover;
+}
+.bush {
+  background: url(../assets/block/bush.jpeg) no-repeat top center/cover;
+}
+.rock {
+  background: url(../assets/block/rock.png) no-repeat top center/cover;
+}
+.tree {
+  background: url(../assets/block/tree.png) no-repeat top center/cover;
+} */
+
+div[category="block"] {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}

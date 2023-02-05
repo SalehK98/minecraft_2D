@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/block.css" />
+    <link rel="stylesheet" href="./css/actions.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="container">
+      <section id="main_game"></section>
+      <section id="actions">
+        <section class="action" id="tools">
+          <div class="box">
+            <div category="tool" type="shovel"></div>
+          </div>
+          <div class="box"><div category="tool" type="axe"></div></div>
+          <div class="box">
+            <div category="tool" type="pickaxe"></div>
+          </div>
+        </section>
+        <section class="action" id="inventory">
+          <div class="box">
+            <div category="block" type="leaf" kind="inventory"></div>
+          </div>
+          <div class="box">
+            <div category="block" type="tree" kind="inventory"></div>
+          </div>
+          <div class="box">
+            <div category="block" type="rock" kind="inventory"></div>
+          </div>
+          <div class="box">
+            <div category="block" type="bush" kind="inventory"></div>
+          </div>
+          <div class="box">
+            <div category="block" type="grass" kind="inventory"></div>
+          </div>
+          <div class="box">
+            <div category="block" type="dirt" kind="inventory"></div>
+          </div>
+        </section>
+        <section class="action" id="resetSec">
+          <div class="box">
+            <div id="reset"></div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!-- <script type="module" src="./app/draw-map.js"></script> -->
+    <script type="module" src="./app/script.js"></script>
+  </body>
+</html>
