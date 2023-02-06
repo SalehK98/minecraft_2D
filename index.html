@@ -14,32 +14,54 @@
       <section id="main_game"></section>
       <section id="actions">
         <section class="action" id="tools">
-          <div class="box">
-            <div category="tool" type="shovel"></div>
-          </div>
-          <div class="box"><div category="tool" type="axe"></div></div>
-          <div class="box">
-            <div category="tool" type="pickaxe"></div>
-          </div>
+          <!-- <div class="box"> -->
+          <div
+            category="tool"
+            type="shovel"
+            blocksList='["dirt", "grass"]'
+          ></div>
+          <!-- </div> -->
+          <!-- <div class="box"> -->
+          <div
+            category="tool"
+            type="axe"
+            blocksList='["tree", "bush", "leaf"]'
+          ></div>
+          <!-- </div> -->
+          <!-- <div class="box"> -->
+          <div category="tool" type="pickaxe" blocksList='["rock"]'></div>
+          <!-- </div> -->
         </section>
         <section class="action" id="inventory">
-          <div class="box">
-            <div category="block" type="leaf" kind="inventory"></div>
+          <!-- <div class="box"> -->
+          <div category="inventory" type="leaf" invType="leaf" count="0">
+            0
+            <!-- </div> -->
           </div>
-          <div class="box">
-            <div category="block" type="tree" kind="inventory"></div>
+          <!-- <div class="box"> -->
+          <div category="inventory" type="tree" invType="tree" count="0">
+            0
+            <!-- </div> -->
           </div>
-          <div class="box">
-            <div category="block" type="rock" kind="inventory"></div>
+          <!-- <div class="box"> -->
+          <div category="inventory" type="rock" invType="rock" count="0">
+            0
+            <!-- </div> -->
           </div>
-          <div class="box">
-            <div category="block" type="bush" kind="inventory"></div>
+          <!-- <div class="box"> -->
+          <div category="inventory" type="bush" invType="bush" count="0">
+            0
+            <!-- </div> -->
           </div>
-          <div class="box">
-            <div category="block" type="grass" kind="inventory"></div>
+          <!-- <div class="box"> -->
+          <div category="inventory" type="grass" invType="grass" count="0">
+            0
+            <!-- </div> -->
           </div>
-          <div class="box">
-            <div category="block" type="dirt" kind="inventory"></div>
+          <!-- <div class="box"> -->
+          <div category="inventory" type="dirt" invType="dirt" count="0">
+            0
+            <!-- </div> -->
           </div>
         </section>
         <section class="action" id="resetSec">
@@ -49,7 +71,6 @@
         </section>
       </section>
     </section>
-    <!-- <script type="module" src="./app/draw-map.js"></script> -->
     <script type="module" src="./app/script.js"></script>
   </body>
 </html>

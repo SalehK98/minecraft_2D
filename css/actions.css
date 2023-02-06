@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 /* tools */
@@ -33,16 +33,19 @@
 }
 
 #tools div[category="tool"] {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   background-image: none;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  border: 10px ridge #808080;
+  box-sizing: border-box;
+  background-color: #54512c;
 }
 
 #tools div[category="tool"]:hover {
-  border: transparent;
+  border: 10px double #3a3033;
 }
 
 /* inventory */
@@ -56,17 +59,24 @@
   margin: 10px;
 }
 
-#inventory div[category="block"] {
-  width: 50px;
-  height: 50px;
+#inventory div[category="inventory"] {
+  width: 70px;
+  height: 70px;
   background-image: none;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  border: 10px ridge #808080;
+  box-sizing: border-box;
 }
 
-#inventory div[category="block"]:hover {
-  border: transparent;
+#inventory div[category="inventory"]:hover {
+  border-color: #423e3e;
 }
 
 /* reset */
